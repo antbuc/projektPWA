@@ -1,0 +1,201 @@
+*{
+    font-family: 'Mynerve', cursive;
+    /* font-family: 'Rubik Wet Paint', cursive; */
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+/* NASLOV */
+.container {
+    max-width: 1000px;
+}
+
+/* .center {
+    text-align: center;
+} */
+
+header h1{
+    color: rgb(56, 56, 162);
+    text-align: center;
+    font-size: 48px;
+}
+
+
+/* PODNASLOV */
+#podnaslov h3{
+    text-align: center;
+    /* justify-content: center; */
+    font-size: 20px;
+}
+
+
+/* NAVIGACIJA */
+nav{
+    /* max-width: 100%; */
+    margin: auto;
+    width: 50%;
+    /* text-align: center; */
+    /* padding: 10px; */
+}
+
+.navigacija ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navigacija li {
+    float: left;
+    width: 20%;
+    padding-left: 15%;
+    
+}
+
+.navigacija a:link,
+.navigacija a:visited {
+    height: 30px;
+    line-height: 50%;
+    display: block;
+    font-weight: bold;
+    color: black;
+    /* background-color: red; */
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    
+}
+
+
+.navigacija a:hover,
+.navigacija a:active {
+    background-color: rgb(32, 178, 170);
+    opacity: 0.5;
+    text-shadow: 2px 2px 0px darkgrey;
+}
+
+
+.linija hr{
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    border: 2px solid black;
+    margin-top: 2px;
+    margin-bottom: 2px;    
+}
+
+
+.europalink ul{
+    /* list-style-type: none; */
+    list-style-type: square;
+    margin: 0;
+    padding: 4%;
+    padding-bottom: 40px;
+    width: 100%;
+}
+.europalink li{
+    color: blue;
+    font-size: 36px;
+    float: left;
+    width: 20%;
+    
+}
+
+.europalink a:link,
+.europalink a:visited {
+    height: 30px;
+    line-height: 50%;
+    display: block;
+    font-weight: bold;
+    color: black;
+    /* background-color: red; */
+    /* text-align: center; */
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    pointer-events: none;
+    
+}
+
+
+.europalink a:hover,
+.europalink a:active {
+    background-color: red;
+    opacity: 0.5;
+    text-shadow: 2px 2px 0px darkgrey;
+    pointer-events: none;
+
+}
+
+
+
+
+
+/* header, footer {
+    background-color: black;
+    color: white;
+} */
+
+/* VIJESTI */
+
+/* .europalink a{
+    font-size: 36px;
+} */
+
+
+/* section.top, .bottom {
+    text-align: center;
+    background-color: lightsteelblue;
+    padding: 100px 0;
+} */
+
+/* section.top .container {
+    max-width: 700px;
+} */
+
+/* main {
+    padding-top: 50px;
+} */
+
+
+/* FOOTER */
+
+footer {
+    padding-top: 30px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    /* .bottom {
+        display: none;
+    } */
+    nav{
+        /* max-width: 100%; */
+        margin: auto;
+        width: 80%;
+        /* text-align: center; */
+        /* padding: 10px; */
+    }
+    li {
+        float: left;
+        width: 20%;
+        
+    }
+    
+}
